@@ -1,12 +1,16 @@
-public class Main {
+public class App {
   public static void main(String[] args) {
     System.out.println(getLength("Hello World"));
+
+
+    String str;
+    str.trim();
   }
   
   
-  public int getLength(String st){
+  public static int getLength(String st){
   	return st.length();
   }
-  
+
 }
 
